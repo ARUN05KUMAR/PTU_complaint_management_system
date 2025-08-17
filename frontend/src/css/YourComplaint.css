@@ -1,0 +1,50 @@
+main {
+    padding: 20px;
+    background: linear-gradient(35deg, #f0f4f8, #d6e4f0);
+    min-height: 100vh;
+  }
+  
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .complaint_short {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    padding: 16px;
+    width: 260px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .complaint_short:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .complaint_short a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .complaint_short p {
+    margin: 8px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .likes_dislikes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444;
+  }
+  

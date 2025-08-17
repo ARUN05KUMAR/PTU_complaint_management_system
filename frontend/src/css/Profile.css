@@ -1,0 +1,33 @@
+  .profile {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 2rem;
+    background-color: #f4f6fc;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin: 12px 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  p:last-child {
+    border-bottom: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .profile {
+      padding: 1rem;
+      margin: 20px;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,34 @@
+.home {
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.home_nav {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  background-color: #e6e6e6;
+  padding: 10px;
+  border-radius: 8px;
+  justify-content: space-between;  /* Distributes items equally with space in between */
+}
+
+.home_nav p {
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: #e6e6e6;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.home_nav p:hover {
+  background-color: #9cb2dc;
+}
+
+.home h1 {
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: #333;
+}

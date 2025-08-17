@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  background: linear-gradient(35deg, #011640, #073f88);
+  color: white;
+}
+
+
+.logo {
+  background-color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 130px;
+  margin-right: 10px; 
+}
+
+h1 {
+  font-size: 46px;
+  text-align: center; 
+  flex-grow: 1; 
+}

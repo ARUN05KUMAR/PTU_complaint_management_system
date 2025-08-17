@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #babdc4;
+  display: flex;
+  justify-content: flex-end; /* Right-align the navbar items */
+  padding: 12px;
+  gap: 20px; /* Adds space between links */
+}
+
+.navbar a {
+  color: rgb(9, 9, 9);
+  font-size: large;
+  text-decoration: none;
+  padding: 10px;
+  transition: background 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #929395;
+  border-radius: 5px;
+}

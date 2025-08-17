@@ -1,0 +1,98 @@
+.complaintFeed {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of items */
+  gap: 16px; /* Space between cards */
+  padding: 20px;
+  width: 100%; /* Take up full width of the parent container */
+  justify-content: flex-start; /* Align items to the left */
+  overflow-x: auto; /* Allow horizontal scrolling if the items exceed width */
+}
+
+/* Style the <ul> as a flex container */
+.complaintFeed ul {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of <li> items if needed */
+  padding: 0;
+  margin: 0;
+  list-style: none; /* Remove default bullet points */
+  width: 100%;
+}
+
+/* Square-shaped cards */
+.complaint_short {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 220px; /* Fixed width for square shape */
+  height: 240px; /* Square height */
+  flex-shrink: 0; /* Prevent shrinking */
+  flex-grow: 0; /* Prevent growing */
+  margin-right: 16px;
+  margin-top: 16px; /* Space between items */
+}
+
+/* Add hover effect */
+.complaint_short:hover {
+  transform: translateY(-4px);
+}
+
+.complaint_short a {
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Text styling */
+.complaint_short p {
+  margin: 4px 0;
+}
+
+.complaint_short p:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f51b5; /* Category */
+}
+
+.complaint_short p:nth-child(2),
+.complaint_short p:nth-child(3) {
+  font-size: 14px;
+  color: #666;
+}
+
+.complaint_short p:nth-child(4) {
+  font-size: 15px;
+  color: #333;
+  flex-grow: 1;
+}
+
+.complaint_short p:nth-child(5) {
+  font-size: 15px;
+  color: #333;
+  flex-grow: 1;
+}
+
+
+/* Likes/Dislikes at bottom */
+.complaint_short p:nth-child(6),
+.complaint_short p:nth-child(7) {
+  font-size: 13px;
+  color: #999;
+  margin-top: auto;
+}
+
+/* Optionally group likes/dislikes in one row */
+.likes_dislikes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 13px;
+  color: #999;
+}

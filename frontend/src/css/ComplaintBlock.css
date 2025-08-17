@@ -1,0 +1,75 @@
+.complaint-block {
+    padding: 20px;
+    background-color: #f5f7fb;
+    border: 1px solid #d9e1f2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .complaint-block:hover {
+    box-shadow: 0 4px 14px rgba(63, 81, 181, 0.1);
+  }
+  
+  .complaint-block p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .complaint-block p strong {
+    color: #3f51b5;
+  }
+  
+  .complaint-block .like,
+.complaint-block .dislike {
+  display: inline-block;
+  margin-right: 15px;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+  color: #fff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.complaint-block .like {
+  background-color: #4caf50;
+}
+
+.complaint-block .like:hover {
+  background-color: #45a049;
+}
+
+.complaint-block .dislike {
+  background-color: #f44336;
+}
+
+.complaint-block .dislike:hover {
+  background-color: #d32f2f;
+}
+
+.complaint-block .header {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3f51b5;
+    margin-bottom: 15px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .complaint-block {
+      padding: 15px;
+    }
+  
+    .complaint-block p {
+      font-size: 15px;
+    }
+  
+    .complaint-block .like,
+    .complaint-block .dislike {
+      padding: 6px 12px;
+      font-size: 14px;
+    }
+  }
+  
