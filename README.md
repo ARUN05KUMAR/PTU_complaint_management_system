@@ -29,8 +29,8 @@
   1️. Clone the Repository
        git clone https://github.com/ARUN05KUMAR/PTU_complaint_management_system.git
         
-    2. Backend Setup
-        cd backend
+    2. Backend Setup : 
+        cd backend,
         npm install
 
     3. Configure MySQL connection in src/config/db.config.js
@@ -38,9 +38,9 @@
     Start backend:
     npm start
 
-    4. Frontend Setup
-        cd frontend
-        npm install
+    4. Frontend Setup:
+        cd frontend,
+        npm install,
         npm start
 
   React app runs at http://localhost:3000
